@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "723039309620",
+    "firebase_url": "https://find-your-bus-1.firebaseio.com",
+    "project_id": "find-your-bus-1",
+    "storage_bucket": "find-your-bus-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723039309620:android:3525444d905a2c65069f61",
+        "android_client_info": {
+          "package_name": "com.example.testapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723039309620-mpdc01vvhmol1jllceuko31mecpblqhl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.testapplication",
+            "certificate_hash": "02b1cf7c04bd56e1b4ba45aa0df125210cb7fd13"
+          }
+        },
+        {
+          "client_id": "723039309620-210m1ub0tp2c8lc350qshggl94cgnngo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjXTUdRsQYkRGHojaK0pWpxjcCp0WnaNU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723039309620-210m1ub0tp2c8lc350qshggl94cgnngo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
