@@ -3,10 +3,12 @@ package com.example.testapplication
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+/*
 import com.geospark.lib.GeoSpark
-//import com.geospark.lib.callback.GeoSparkCallBack
-//import com.geospark.lib.model.GeoSparkError
-//import com.geospark.lib.model.GeoSparkUser
+import com.geospark.lib.callback.GeoSparkCallBack
+import com.geospark.lib.model.GeoSparkError
+import com.geospark.lib.model.GeoSparkUser
+*/
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -15,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        GeoSpark.initialize(this.application, getString(R.string.geospark_api_key))
+//        GeoSpark.initialize(this.application, getString(R.string.geospark_api_key))
 
 //        GeoSpark.createUser(this, "User Description", object : GeoSparkCallBack {
 //            override fun onSuccess(geoSparkUser: GeoSparkUser) {
