@@ -1,5 +1,6 @@
 package com.example.testapplication
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -23,6 +24,11 @@ class UserLoginActivity : AppCompatActivity() {
 
         btnLoginUser.setOnClickListener {
             loginUser()
+            if(auth.currentUser!=null) {
+                Intent(this, ChooseCityActivity::class.java).also {
+                    startActivity(it)
+                }
+            }
         }
     }
 

@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">Find Your Bus</string>
     <string name="find_your_bus">Find your bus</string>
-    <string name="geospark_api_key">5ea54cfb9b747d33b7044f2c288c94f5b863a79a9227bf749ac5abd56445eb7b</string>
+    <string name="geospark_api_key">Key not shared for security purposes</string>
+    <string name="google_maps_key">Key not shared for security purposes</string>
     <string-array name="cities">
         <item>- SELECT CITY -</item>
         <item>Guwahati</item>
